@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "website-monitor-console"
+version = "0.1.0"
+description = "A console-based application that monitors the performance and availability of websites. Users can define websites and check intervals, and the app continuously tracks uptime and response times."
+authors = ["Riccardo De Maria <103948893+rccrdmr@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+colorama = "^0.4.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
